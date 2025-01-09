@@ -207,7 +207,7 @@ export const comapanyDetails = [
     ecmCompanyName: '3M INDIA LIMITED',
     ecfsFinancialYear: '2024-2025',
     ecfsScore: '79.22',
-    esnmScoreName: 'Esg Score',
+    esnmScoreName: 'ESG Rating',
     ecfsUpdatedTs: '2024-07-24 00:00:00',
   },
   {
@@ -215,7 +215,7 @@ export const comapanyDetails = [
     ecmCompanyName: '3M INDIA LIMITED',
     ecfsFinancialYear: '2024-2025',
     ecfsScore: '50.22',
-    esnmScoreName: 'Core Esg Score',
+    esnmScoreName: 'Core ESG Rating',
     ecfsUpdatedTs: '2024-07-21 00:00:00',
   },
 ];
