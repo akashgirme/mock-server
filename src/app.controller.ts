@@ -1,6 +1,21 @@
 import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { AppService } from './app.service';
-import { comapanyDetails, companies } from './companies';
+import {
+  AllCompanies,
+  comapanyDetails,
+  companies,
+  companyDetails,
+  controveryScore,
+  coreCombinedScore,
+  coreEsgRatings,
+  coreTransitionScore,
+  envThemeData,
+  govThemeData,
+  pillarScores,
+  sectorRatingCompanies,
+  socialThemeData,
+  transitionScores,
+} from './companies';
 import { companiesRatings } from './rating';
 
 @Controller('nse-esg-website')
@@ -14,7 +29,7 @@ export class AppController {
     console.log('saved token, ', this.token);
     console.log('request token, ', req.headers['authorization']);
 
-    return companies;
+    return AllCompanies;
   }
 
   @Post('nse-esg-api/generateToken')
@@ -39,9 +54,62 @@ export class AppController {
     return comapanyDetails;
   }
 
-  @Get('/nse-esg-api/all-esg-companies-score')
-  getCompaniesEsgRatings(): any {
-    console.log('get company details request received');
-    return companiesRatings;
+  // @Get('/nse-esg-api/all-esg-companies-score')
+  // getCompaniesEsgRatings(): any {
+  //   console.log('get company details request received');
+  //   return companiesRatings;
+  // }
+
+  @Get('nse-esg-api/all-esg-companies-score')
+  getAllCompanies() {
+    return companies;
+  }
+
+  @Post('nse-esg-api/esgrating/company-details')
+  companyDetails(@Body() body: any) {
+    return companyDetails;
+  }
+
+  @Post('nse-esg-api/esgrating/esg-pillar-scores')
+  pillarScores(@Body() body: any) {
+    switch (body.scoreId) {
+      case 1:
+        return pillarScores;
+      case 2:
+        return transitionScores;
+      case 3:
+        return coreEsgRatings;
+    }
+  }
+
+  @Post('nse-esg-api-esgrating/esg-theme-score')
+  themes(@Body() body: any) {
+    switch (body.pillarId) {
+      case 1:
+        return envThemeData;
+      case 2:
+        return socialThemeData;
+      case 3:
+        return govThemeData;
+    }
+  }
+
+  @Post('nse-esg-api/esgrating/core-esg-ratings')
+  corScore(@Body() body: any) {
+    console.log(`Core esg ratings: `, body);
+    switch (body.scoreId) {
+      case 4:
+        return coreTransitionScore;
+      case 6:
+        return coreCombinedScore;
+      case 7:
+        return controveryScore;
+    }
+  }
+
+  @Post('nse-esg-api/esg-sector-score')
+  sectorRatings(@Body() body: any) {
+    console.log(`Sector Ratings :`, body);
+    return sectorRatingCompanies;
   }
 }
