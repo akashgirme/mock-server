@@ -704,7 +704,7 @@ export const AllCompanies = [
 export const companies = [
   {
     esgCompanyId: 1,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Reliance Industries Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -716,7 +716,7 @@ export const companies = [
   },
   {
     esgCompanyId: 2,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Tata Consultancy Services Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -728,7 +728,7 @@ export const companies = [
   },
   {
     esgCompanyId: 3,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'HDFC Bank Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -740,7 +740,7 @@ export const companies = [
   },
   {
     esgCompanyId: 4,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'ICICI Bank Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -752,7 +752,7 @@ export const companies = [
   },
   {
     esgCompanyId: 5,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Bharti Airtel Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -764,7 +764,7 @@ export const companies = [
   },
   {
     esgCompanyId: 6,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'State Bank of India',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -776,7 +776,7 @@ export const companies = [
   },
   {
     esgCompanyId: 7,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Infosys Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -788,7 +788,7 @@ export const companies = [
   },
   {
     esgCompanyId: 8,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Life Insurance Corporation Of India',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -800,7 +800,7 @@ export const companies = [
   },
   {
     esgCompanyId: 9,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'ITC Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -812,7 +812,7 @@ export const companies = [
   },
   {
     esgCompanyId: 10,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Hindustan Unilever Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -824,7 +824,7 @@ export const companies = [
   },
   {
     esgCompanyId: 11,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Larsen & Toubro Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -836,7 +836,7 @@ export const companies = [
   },
   {
     esgCompanyId: 12,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Bajaj Finance Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -848,7 +848,7 @@ export const companies = [
   },
   {
     esgCompanyId: 13,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'HCL Technologies Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -860,7 +860,7 @@ export const companies = [
   },
   {
     esgCompanyId: 14,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Maruti Suzuki India Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -872,7 +872,7 @@ export const companies = [
   },
   {
     esgCompanyId: 15,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Sun Pharmaceutical Industries Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -884,7 +884,7 @@ export const companies = [
   },
   {
     esgCompanyId: 16,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Adani Enterprises Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -896,7 +896,7 @@ export const companies = [
   },
   {
     esgCompanyId: 17,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Kotak Mahindra Bank Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -908,7 +908,7 @@ export const companies = [
   },
   {
     esgCompanyId: 18,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Titan Company Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -920,7 +920,7 @@ export const companies = [
   },
   {
     esgCompanyId: 19,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Oil & Natural Gas Corporation Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -932,7 +932,7 @@ export const companies = [
   },
   {
     esgCompanyId: 20,
-    esgCompanyName: 'ITC Ltd.',
+    esgCompanyName: 'Tata Motors Limited',
     esgSector: '"Diversified"',
     esgMacroEconomicSector: 'Diversified',
     industry: 'Diversified',
@@ -979,7 +979,7 @@ export const comapanyDetails = [
 
 export const companyDetails = {
   companyId: 163,
-  companyName: 'ITC Ltd.',
+  companyName: 'HDFC Bank Limited',
   macroEconomicSector: 'Diversified',
   sector: 'Diversified',
   industry: 'Diversified',
