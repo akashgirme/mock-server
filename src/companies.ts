@@ -991,6 +991,7 @@ export const companyDetails = {
   esgScore: 78.55,
   coreEsgScore: 61.47,
   transitionScore: 72.09,
+  analystName: 'Suhas Shetty',
   updatedAt: '2025-02-11 18:00:55.016',
 };
 
