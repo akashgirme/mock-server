@@ -979,11 +979,11 @@ export const comapanyDetails = [
 
 export const companyDetails = {
   companyId: 163,
-  companyName: 'HDFC Bank Limited',
-  macroEconomicSector: 'Diversified',
-  sector: 'Diversified',
-  industry: 'Diversified',
-  basicIndustry: 'Diversified',
+  companyName: 'Tata Consultancy Services Limited',
+  macroEconomicSector: 'Information Technology',
+  sector: 'Information Technology',
+  industry: 'IT - Software',
+  basicIndustry: 'Computers - Software & Consulting',
   description:
     'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
   currentEsgRatings: 78.55,
