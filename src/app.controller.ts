@@ -16,7 +16,17 @@ import {
   socialThemeData,
   transitionScores,
 } from './companies';
-import { companiesRatings } from './rating';
+import {
+  ChangeLog,
+  CompanyDetails,
+  industryLeaders,
+  IndustryRankAndScore,
+  KeyDrivers,
+  KeyFactors,
+  PillarIndustryLeaders,
+  PillarSummary,
+  summary,
+} from './rating-analytics';
 
 @Controller('nse-esg-website')
 export class AppController {
@@ -57,7 +67,6 @@ export class AppController {
   // @Get('/nse-esg-api/all-esg-companies-score')
   // getCompaniesEsgRatings(): any {
   //   console.log('get company details request received');
-  //   return companiesRatings;
   // }
 
   @Get('nse-esg-api/all-esg-companies-score')
@@ -66,7 +75,7 @@ export class AppController {
   }
 
   @Post('nse-esg-api/esgrating/company-details')
-  companyDetails(@Body() body: any) {
+  companyDetails() {
     return companyDetails;
   }
 
@@ -82,7 +91,7 @@ export class AppController {
     }
   }
 
-  @Post('nse-esg-api-esgrating/esg-theme-score')
+  @Post('nse-esg-api/esgrating/theme-scores')
   themes(@Body() body: any) {
     switch (body.pillarId) {
       case 1:
@@ -111,5 +120,51 @@ export class AppController {
   sectorRatings(@Body() body: any) {
     console.log(`Sector Ratings :`, body);
     return sectorRatingCompanies;
+  }
+
+  @Post('rating-analytics/company-details')
+  ratingCompanyDetails(@Body() body: any) {
+    console.log(`Sector Ratings :`, body);
+    return CompanyDetails;
+  }
+
+  @Post('rating-analytics/company-summary')
+  summary() {
+    return summary;
+  }
+
+  @Post('rating-analytics/industry-score-rank')
+  rankAndScore() {
+    return IndustryRankAndScore;
+  }
+
+  @Post('rating-analytics/industry-leaders')
+  industryLeaders() {
+    return industryLeaders;
+  }
+
+  @Post('rating-analytics/change-log')
+  changeLog() {
+    return ChangeLog;
+  }
+
+  @Post('rating-analytics/pillar-industry-leaders')
+  pillarIndustryLeaders() {
+    return PillarIndustryLeaders;
+  }
+
+  @Post('rating-analytics/pillar-summary')
+  pillarSummary() {
+    return PillarSummary;
+  }
+
+  @Post('rating-analytics/key-factors')
+  keyFactors() {
+    return KeyFactors;
+  }
+
+  @Post('rating-analytics/key-drivers')
+  keyDrivers() {
+    return KeyDrivers;
   }
 }
