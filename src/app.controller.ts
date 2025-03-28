@@ -11,6 +11,7 @@ import {
   coreTransitionScore,
   envThemeData,
   govThemeData,
+  pillarDescriptionContent,
   pillarScores,
   sectorRatingCompanies,
   socialThemeData,
@@ -114,6 +115,11 @@ export class AppController {
       case 7:
         return controveryScore;
     }
+  }
+
+  @Post('nse-esg-api/esgrating/pillar-description')
+  pillarDescription() {
+    return pillarDescriptionContent;
   }
 
   @Post('nse-esg-api/esg-sector-score')

@@ -995,6 +995,14 @@ export const companyDetails = {
   updatedAt: '2025-02-11 18:00:55.016',
 };
 
+export const pillarDescriptionContent = {
+  companyId: 1,
+  pillarId: 1,
+  description: `Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
+  both quantitative and qualitative being considered for carrying out such assessment`,
+  financialYear: '2023-2024',
+};
+
 export const govThemeData = {
   companyId: 1,
   companyName: 'HDFC Bank Limited',
