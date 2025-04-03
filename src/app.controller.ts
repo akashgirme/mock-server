@@ -93,7 +93,7 @@ export class AppController {
     }
   }
 
-  @Post('nse-esg-api/esgrating/theme-scores')
+  @Post('nse-esg-api-esgrating/esg-theme-score')
   themes(@Body() body: any) {
     switch (body.pillarId) {
       case 1:
@@ -175,7 +175,7 @@ export class AppController {
     return KeyDrivers;
   }
 
-  @Post('rating-analytics/performance-evolution')
+  @Post('/rating-analytics/performance-evaluation')
   performanceEvolution() {
     return performanceEvolution;
   }
