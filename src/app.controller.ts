@@ -11,6 +11,7 @@ import {
   coreTransitionScore,
   envThemeData,
   govThemeData,
+  performanceEvolution,
   pillarDescriptionContent,
   pillarScores,
   sectorRatingCompanies,
@@ -172,5 +173,10 @@ export class AppController {
   @Post('rating-analytics/key-drivers')
   keyDrivers() {
     return KeyDrivers;
+  }
+
+  @Post('rating-analytics/performance-evolution')
+  performanceEvolution() {
+    return performanceEvolution;
   }
 }

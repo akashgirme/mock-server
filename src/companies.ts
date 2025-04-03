@@ -1005,7 +1005,7 @@ export const pillarDescriptionContent = {
   both quantitative and qualitative being considered for carrying out such assessment. Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
   both quantitative and qualitative being considered for carrying out such assessment. Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
   both quantitative and qualitative being considered for carrying out such assessment. Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
-  both quantitative and qualitative being considered for carrying out such assessment`,
+  both quantitative and qualitative being considered for carrying out such assessment.`,
   financialYear: '2023-2024',
 };
 
@@ -1228,6 +1228,161 @@ export const sectorRatingCompanies = {
       score: 7,
       scoreChange: null,
       remark: null,
+    },
+  ],
+};
+
+export const performanceEvolution = {
+  'Audit and tax': [
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+  ],
+  'Board Composition': [
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+  ],
+  'Board Functioning': [
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+  ],
+  'Audit tax': [
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
+    },
+    {
+      dataPoint:
+        'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
+      companyPerformance: 'Yes',
+      bestPractice: 'Yes',
     },
   ],
 };
