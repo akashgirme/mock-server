@@ -947,32 +947,35 @@ export const companies = [
 export const comapanyDetails = [
   {
     ecmCompanyId: 1,
-    ecmCompanyName: '3M INDIA LIMITED',
+    ecmCompanyName: 'Tata Consultancy Services Limited',
     ecfsFinancialYear: '2024-2025',
     ecfsScore: '79.22',
     ecmMacroEconomicSector: 'IT',
-    ecmDescription: 'string',
     esnmScoreName: 'ESG Rating',
+    description:
+      'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
     ecfsUpdatedTs: '2024-07-24 00:00:00',
   },
   {
     ecmCompanyId: 1,
-    ecmCompanyName: '3M INDIA LIMITED',
+    ecmCompanyName: 'Tata Consultancy Services Limited',
     ecfsFinancialYear: '2024-2025',
     ecfsScore: '50.22',
     ecmMacroEconomicSector: 'IT',
-    ecmDescription: 'string',
     esnmScoreName: 'Core ESG Rating',
+    description:
+      'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
     ecfsUpdatedTs: '2024-07-21 00:00:00',
   },
   {
     ecmCompanyId: 1,
-    ecmCompanyName: '3M INDIA LIMITED',
+    ecmCompanyName: 'Tata Consultancy Services Limited',
     ecfsFinancialYear: '2024-2025',
     ecfsScore: '50.22',
     ecmMacroEconomicSector: 'IT',
-    ecmDescription: 'string',
     esnmScoreName: 'Transition Score',
+    description:
+      'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
     ecfsUpdatedTs: '2024-07-21 00:00:00',
   },
 ];
@@ -999,6 +1002,9 @@ export const pillarDescriptionContent = {
   companyId: 1,
   pillarId: 1,
   description: `Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
+  both quantitative and qualitative being considered for carrying out such assessment. Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
+  both quantitative and qualitative being considered for carrying out such assessment. Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
+  both quantitative and qualitative being considered for carrying out such assessment. Pillar wise E, S & G scores-key drivers (including industry comparison of material parameters) 
   both quantitative and qualitative being considered for carrying out such assessment`,
   financialYear: '2023-2024',
 };
