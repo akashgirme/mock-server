@@ -93,7 +93,7 @@ export class AppController {
     }
   }
 
-  @Post('nse-esg-api-esgrating/esg-theme-score')
+  @Post('nse-esg-api/esgrating/theme-scores')
   themes(@Body() body: any) {
     switch (body.pillarId) {
       case 1:
