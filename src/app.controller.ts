@@ -1,9 +1,7 @@
 import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { AppService } from './app.service';
 import {
-  AllCompanies,
   comapanyDetails,
-  companies,
   companyDetails,
   controveryScore,
   coreCombinedScore,
@@ -29,6 +27,8 @@ import {
   PillarSummary,
   summary,
 } from './rating-analytics';
+import { companiesWithESGRatings } from './companies-with-esg-ratings';
+import { companiesPreScore } from './companies-pre-score';
 
 @Controller('nse-esg-website')
 export class AppController {
@@ -41,7 +41,7 @@ export class AppController {
     console.log('saved token, ', this.token);
     console.log('request token, ', req.headers['authorization']);
 
-    return AllCompanies;
+    return companiesPreScore;
   }
 
   @Post('nse-esg-api/generateToken')
@@ -73,7 +73,7 @@ export class AppController {
 
   @Get('nse-esg-api/all-esg-companies-score')
   getAllCompanies() {
-    return companies;
+    return companiesWithESGRatings;
   }
 
   @Post('nse-esg-api/esgrating/company-details')
