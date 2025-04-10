@@ -29,6 +29,7 @@ import {
 } from './rating-analytics';
 import { companiesWithESGRatings } from './companies-with-esg-ratings';
 import { companiesPreScore } from './companies-pre-score';
+import { rawData } from './raw-data';
 
 @Controller('nse-esg-website')
 export class AppController {
@@ -178,5 +179,10 @@ export class AppController {
   @Post('/rating-analytics/performance-evaluation')
   performanceEvolution() {
     return performanceEvolution;
+  }
+
+  @Post('/nse-esg-api/rawdata/raw-data-companies')
+  rawData() {
+    return rawData;
   }
 }
