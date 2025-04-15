@@ -2384,16 +2384,6 @@ export const companiesPreScore = [
     'Transition Score': 83,
   },
   {
-    ecmCompanyName: 'JK Cement Limited',
-    etmIndustryName: 'Commodities',
-    esmSectorName: 'Construction Materials',
-    ebimIndustryName: 'Cement & Cement Products',
-    esgBasicIndustry: 'Cement & Cement Products',
-    'ESG Ratings': 96,
-    'Core ESG Ratings': 75,
-    'Transition Score': 81,
-  },
-  {
     ecmCompanyId: 88,
     ecmCompanyName: 'IPCA Laboratories Limited',
     etmIndustryName: 'Healthcare',
