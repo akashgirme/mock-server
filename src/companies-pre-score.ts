@@ -315,7 +315,6 @@ export const companiesPreScore = [
     ebimIndustryName: 'Transport Infrastructure',
     esgBasicIndustry: 'Port & Port services',
     ecmCompanyFlag: 'Y',
-    ecmCompanyFlag: 'Y',
     'ESG Ratings': 67,
     'Core ESG Ratings': 66,
     'Transition Score': 86,
