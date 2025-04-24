@@ -2,7 +2,9 @@ import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { AppService } from './app.service';
 import {
   comapanyDetails,
-  companyDetails,
+  companyDetails1,
+  companyDetails2,
+  companyDetails3,
   controveryScore,
   coreCombinedScore,
   coreEsgRatings,
@@ -78,8 +80,17 @@ export class AppController {
   }
 
   @Post('nse-esg-api/esgrating/company-details')
-  companyDetails() {
-    return companyDetails;
+  companyDetails(@Body() body: any) {
+    switch (body.companyId) {
+      case 1:
+        return companyDetails1;
+      case 2:
+        return companyDetails2;
+      case 3:
+        return companyDetails3;
+      default:
+        return companyDetails1;
+    }
   }
 
   @Post('nse-esg-api/esgrating/esg-pillar-scores')
