@@ -142,9 +142,12 @@ export class AppController {
   }
 
   @Post('rating-analytics/company-details')
-  ratingCompanyDetails(@Body() body: any) {
-    console.log(`Sector Ratings :`, body);
-    return CompanyDetails;
+  ratingCompanyDetails(@Body('companyId') companyId: number) {
+    if(companyId < 5) {
+    return CompanyDetails[companyId]
+    } else {
+      return CompanyDetails[0]
+    }
   }
 
   @Post('rating-analytics/company-summary')
@@ -153,8 +156,12 @@ export class AppController {
   }
 
   @Post('rating-analytics/industry-score-rank')
-  rankAndScore() {
-    return IndustryRankAndScore;
+  rankAndScore(@Body('companyId') companyId: number) {
+    if(companyId === 1){
+      return IndustryRankAndScore[0];
+    } else {
+      return IndustryRankAndScore[1]
+    }
   }
 
   @Post('rating-analytics/industry-leaders')
@@ -163,8 +170,12 @@ export class AppController {
   }
 
   @Post('rating-analytics/change-log')
-  changeLog() {
-    return ChangeLog;
+  changeLog(@Body('companyId') companyId: number) {
+    if(companyId < 4) {
+    return ChangeLog[companyId];
+  } else {
+      return ChangeLog[1];
+    }
   }
 
   @Post('rating-analytics/pillar-industry-leaders')
