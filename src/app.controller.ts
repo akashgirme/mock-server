@@ -143,10 +143,10 @@ export class AppController {
 
   @Post('rating-analytics/company-details')
   ratingCompanyDetails(@Body('companyId') companyId: number) {
-    if(companyId < 5) {
-    return CompanyDetails[companyId]
+    if (companyId < 5) {
+      return CompanyDetails[companyId];
     } else {
-      return CompanyDetails[0]
+      return CompanyDetails[0];
     }
   }
 
@@ -157,10 +157,10 @@ export class AppController {
 
   @Post('rating-analytics/industry-score-rank')
   rankAndScore(@Body('companyId') companyId: number) {
-    if(companyId === 1){
+    if (companyId === 1) {
       return IndustryRankAndScore[0];
     } else {
-      return IndustryRankAndScore[1]
+      return IndustryRankAndScore[1];
     }
   }
 
@@ -171,9 +171,9 @@ export class AppController {
 
   @Post('rating-analytics/change-log')
   changeLog(@Body('companyId') companyId: number) {
-    if(companyId < 4) {
-    return ChangeLog[companyId];
-  } else {
+    if (companyId < 4) {
+      return ChangeLog[companyId];
+    } else {
       return ChangeLog[1];
     }
   }
