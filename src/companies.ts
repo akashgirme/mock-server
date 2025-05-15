@@ -1263,162 +1263,76 @@ export const sectorRatingCompanies = {
 
 export const performanceEvolution = [
   {
-    'Audit and tax': [
+    themeName: 'Board - Composition',
+    esgperformanceEvaluationDataResponseList: [
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Increase in Scope 1  And  Scope 2 emissions as compared to previous year',
+        companyPerformance: '-25',
+        bestPractice: '50',
       },
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Increase in intensity of Scope 1  And  Scope 2 emissions compared to previous year',
+        companyPerformance: '-25',
+        bestPractice: '25',
+      },
+      {
+        dataPoint: 'Increase in Scope 3 emissions as compared to previous year',
+        companyPerformance: '25',
+        bestPractice: '25',
       },
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Increase in intensity of Scope 3 emissions compared to previous year',
+        companyPerformance: '-25',
+        bestPractice: '50',
       },
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Are there any goals/ targets/ commitments set towards carbon neutrality/ Net zero?',
+        companyPerformance: 'Target is given',
+        bestPractice: 'Target is given',
       },
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Are there any initiatives towards reduction in GHG Emissions?',
+        companyPerformance: 'Significant Progress',
+        bestPractice: 'Significant Progress',
       },
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-    ],
-  },
-  {
-    'Board Composition': [
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Initiatives towards improving resource efficiency/ carbon neutrality/ Net zero/ reduction in GHG Emissions',
+        companyPerformance: 'Significant Progress',
+        bestPractice: 'Significant Progress',
       },
     ],
   },
   {
-    'Board Functioning': [
+    themeName: 'Audit ',
+    esgperformanceEvaluationDataResponseList: [
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Increase in energy consumption from renewable energy sources as compared to previous year',
+        companyPerformance: '50',
+        bestPractice: '15',
       },
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Increase in energy consumption from  non renewable sources as compared to previous year',
+        companyPerformance: '0',
+        bestPractice: '10',
       },
     ],
   },
   {
-    'Audit tax': [
+    themeName: 'Disciplinary Action and Risk Management',
+    esgperformanceEvaluationDataResponseList: [
       {
         dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
-      },
-      {
-        dataPoint:
-          'Does the company perform climate-related scenario analysis (based on TCFD Framework)',
-        companyPerformance: 'Yes',
-        bestPractice: 'Yes',
+          'Turnover of products and / services as a percentage of turnover from all products/service that carry information about the 2) Safe and responsible usage',
+        companyPerformance: '100',
+        bestPractice: '0',
       },
     ],
   },
