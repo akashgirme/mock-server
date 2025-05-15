@@ -9,7 +9,8 @@ export const CompanyDetails = [
     description:
       'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
     currentEsgRatings: 74,
-    previousEsgRatings: 35,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
   {
@@ -21,7 +22,8 @@ export const CompanyDetails = [
     basicIndustry: 'Refineries & Marketing',
     description: `Reliance Industries Limited is a multinational conglomerate headquartered in Mumbai, India. It falls under the Energy macro-economic sector. Reliance offers a diverse portfolio, spanning from energy and petrochemicals to retail, telecommunications, and digital services. The company is a major player in India's economy, known for its innovation and significant contributions across various sectors.`,
     currentEsgRatings: 44,
-    previousEsgRatings: 95,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
   {
@@ -34,7 +36,8 @@ export const CompanyDetails = [
     description:
       'HDFC Bank Limited is a leading financial services company headquartered in Mumbai, India. It falls under the Financial Services macro-economic sector. HDFC Bank offers a comprehensive range of products and services including retail banking, wholesale banking, and treasury operations. The bank is renowned for its innovative banking solutions, robust digital banking platform, and extensive ATM network, providing customers with seamless and secure banking experiences.',
     currentEsgRatings: 54,
-    previousEsgRatings: 85,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
   {
@@ -47,7 +50,8 @@ export const CompanyDetails = [
     description:
       'ICICI Bank Limited is a leading financial services company headquartered in Mumbai, India. It falls under the Financial Services macro-economic sector. The bank offers a comprehensive range of banking products and financial services to corporate and retail customers through a variety of delivery channels and specialized subsidiaries in the areas of investment banking, life and non-life insurance, venture capital, and asset management.',
     currentEsgRatings: 24,
-    previousEsgRatings: 52,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
   {
@@ -60,7 +64,8 @@ export const CompanyDetails = [
     description:
       'Bharti Airtel Limited is a leading global telecommunications services provider headquartered in New Delhi, India. It falls under the Telecommunications macro-economic sector. Airtel offers a comprehensive range of services, including mobile, fixed-line, broadband, and digital TV services across India and several other countries. The company is known for its extensive network infrastructure and commitment to providing innovative and affordable communication solutions.',
     currentEsgRatings: 44,
-    previousEsgRatings: 56,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
   {
@@ -72,7 +77,8 @@ export const CompanyDetails = [
     basicIndustry: 'Public Sector Bank',
     description: `State Bank of India (SBI) is a leading financial institution headquartered in Mumbai, India. It falls under the Financial Services macro-economic sector. SBI offers a comprehensive range of financial products and services catering to diverse customer segments, including individuals, businesses, and institutions. Its offerings encompass retail banking, corporate banking, investment banking, and treasury services. SBI is recognized for its extensive network across India and its significant role in supporting the nation's economic growth.`,
     currentEsgRatings: 14,
-    previousEsgRatings: 35,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
   {
@@ -85,14 +91,15 @@ export const CompanyDetails = [
     description:
       'Infosys Limited is a multinational information technology services and consulting company headquartered in Bengaluru, India. It falls under the Information Technology macro-economic sector. Infosys provides a diverse portfolio of services such as IT consulting, software development, and business process management. The company is recognized for its expertise in digital transformation, artificial intelligence, cloud services, and cybersecurity, catering to clients across various industries globally.',
     currentEsgRatings: 74,
-    previousEsgRatings: 35,
+    averageIndustryEsgRatings: 95,
+    prevYearRating: null,
     updatedAt: '2025-02-11 18:00:55.016',
   },
 ];
 
 export const summary = {
   companyId: 1,
-  summary: `Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.`,
+  pillarDescriptionContent: `Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.`,
   financialYear: '2023-2024',
 };
 
