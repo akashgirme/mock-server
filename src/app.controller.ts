@@ -2,9 +2,7 @@ import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { AppService } from './app.service';
 import {
   comapanyDetails,
-  companyDetails1,
-  companyDetails2,
-  companyDetails3,
+  companyDetails,
   controveryScore,
   coreCombinedScore,
   coreEsgRatings,
@@ -83,13 +81,13 @@ export class AppController {
   companyDetails(@Body() body: any) {
     switch (body.companyId) {
       case 1:
-        return companyDetails1;
+        return companyDetails[0];
       case 2:
-        return companyDetails2;
+        return companyDetails[1];
       case 3:
-        return companyDetails3;
+        return companyDetails[2];
       default:
-        return companyDetails1;
+        return companyDetails[0];
     }
   }
 
@@ -143,10 +141,10 @@ export class AppController {
 
   @Post('rating-analytics/company-details')
   ratingCompanyDetails(@Body('companyId') companyId: number) {
-    if(companyId < 5) {
-    return CompanyDetails[companyId]
+    if (companyId < 5) {
+      return CompanyDetails[companyId];
     } else {
-      return CompanyDetails[0]
+      return CompanyDetails[0];
     }
   }
 
@@ -157,10 +155,10 @@ export class AppController {
 
   @Post('rating-analytics/industry-score-rank')
   rankAndScore(@Body('companyId') companyId: number) {
-    if(companyId === 1){
+    if (companyId === 1) {
       return IndustryRankAndScore[0];
     } else {
-      return IndustryRankAndScore[1]
+      return IndustryRankAndScore[1];
     }
   }
 
@@ -171,9 +169,9 @@ export class AppController {
 
   @Post('rating-analytics/change-log')
   changeLog(@Body('companyId') companyId: number) {
-    if(companyId < 4) {
-    return ChangeLog[companyId];
-  } else {
+    if (companyId < 4) {
+      return ChangeLog[companyId];
+    } else {
       return ChangeLog[1];
     }
   }

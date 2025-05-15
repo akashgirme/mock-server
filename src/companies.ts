@@ -980,56 +980,52 @@ export const comapanyDetails = [
   },
 ];
 
-export const companyDetails1 = {
-  companyId: 155,
-  companyName: 'Tata Consultancy Services Limited',
-  macroEconomicSector: 'Information Technology',
-  sector: 'Information Technology',
-  industry: 'IT - Software',
-  basicIndustry: 'Computers - Software & Consulting',
-  description:
-    'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
-  currentEsgRatings: 78.55,
-  averageIndustryEsgRatings: 78.554,
-  esgScore: 78.55,
-  coreEsgScore: 61.47,
-  transitionScore: 72.09,
-  analystName: 'Suhas Shetty',
-  updatedAt: '2025-02-11 18:00:55.016',
-};
-export const companyDetails2 = {
-  companyId: 70,
-  companyName: 'Reliance Industries Limited',
-  macroEconomicSector: 'Energy',
-  sector: 'Oil, Gas & Consumable Fuels',
-  industry: 'Petroleum Products',
-  basicIndustry: 'Refineries & Marketing',
-  description: `Reliance Industries Limited is a multinational conglomerate headquartered in Mumbai, India. It falls under the Energy macro-economic sector. Reliance offers a diverse portfolio, spanning from energy and petrochemicals to retail, telecommunications, and digital services. The company is a major player in India's economy, known for its innovation and significant contributions across various sectors.`,
-  currentEsgRatings: 78.55,
-  averageIndustryEsgRatings: 78.554,
-  esgScore: 65.55,
-  coreEsgScore: 72.47,
-  transitionScore: 59.09,
-  analystName: 'Suhas Shetty',
-  updatedAt: '2025-04-11 18:00:55.016',
-};
-export const companyDetails3 = {
-  companyId: 1,
-  companyName: 'HDFC Bank Limited',
-  macroEconomicSector: 'Financial Services',
-  sector: 'Financial Services',
-  industry: 'Banks',
-  basicIndustry: 'Private Sector Bank',
-  description:
-    'HDFC Bank Limited is a leading financial services company headquartered in Mumbai, India. It falls under the Financial Services macro-economic sector. HDFC Bank offers a comprehensive range of products and services including retail banking, wholesale banking, and treasury operations. The bank is renowned for its innovative banking solutions, robust digital banking platform, and extensive ATM network, providing customers with seamless and secure banking experiences.',
-  currentEsgRatings: 78.55,
-  averageIndustryEsgRatings: 78.554,
-  esgScore: 38.55,
-  coreEsgScore: 67.47,
-  transitionScore: 78.09,
-  analystName: 'Suhas Shetty',
-  updatedAt: '2025-04-06 18:00:55.016',
-};
+export const companyDetails = [
+  {
+    companyId: 155,
+    companyName: 'Tata Consultancy Services Limited',
+    macroEconomicSector: 'Information Technology',
+    sector: 'Information Technology',
+    industry: 'IT - Software',
+    basicIndustry: 'Computers - Software & Consulting',
+    description:
+      'Tata Consultancy Services (TCS) is a multinational information technology services and consuling company headquartered in Mumbai, India. It falls under the inform ation Technology maçro-economic sector. TCS offers a wide range of services including IT services, digital andbusiness solutions, and consulting. The company is renowned for its expertise in software development, cloud computing, Al, and cybersecurity, serving clients across diverse industries globally.',
+    currentEsgRatings: 78.55,
+    averageIndustryEsgRatings: 78.554,
+    prevYearRating: null,
+    analystName: 'Suhas Shetty',
+    updatedAt: '2025-02-11 18:00:55.016',
+  },
+  {
+    companyId: 70,
+    companyName: 'Reliance Industries Limited',
+    macroEconomicSector: 'Energy',
+    sector: 'Oil, Gas & Consumable Fuels',
+    industry: 'Petroleum Products',
+    basicIndustry: 'Refineries & Marketing',
+    description: `Reliance Industries Limited is a multinational conglomerate headquartered in Mumbai, India. It falls under the Energy macro-economic sector. Reliance offers a diverse portfolio, spanning from energy and petrochemicals to retail, telecommunications, and digital services. The company is a major player in India's economy, known for its innovation and significant contributions across various sectors.`,
+    currentEsgRatings: 78.55,
+    averageIndustryEsgRatings: 78.554,
+    prevYearRating: null,
+    analystName: 'Suhas Shetty',
+    updatedAt: '2025-04-11 18:00:55.016',
+  },
+  {
+    companyId: 1,
+    companyName: 'HDFC Bank Limited',
+    macroEconomicSector: 'Financial Services',
+    sector: 'Financial Services',
+    industry: 'Banks',
+    basicIndustry: 'Private Sector Bank',
+    description:
+      'HDFC Bank Limited is a leading financial services company headquartered in Mumbai, India. It falls under the Financial Services macro-economic sector. HDFC Bank offers a comprehensive range of products and services including retail banking, wholesale banking, and treasury operations. The bank is renowned for its innovative banking solutions, robust digital banking platform, and extensive ATM network, providing customers with seamless and secure banking experiences.',
+    currentEsgRatings: 78.55,
+    averageIndustryEsgRatings: 78.554,
+    prevYearRating: null,
+    analystName: 'Suhas Shetty',
+    updatedAt: '2025-04-06 18:00:55.016',
+  },
+];
 
 export const pillarDescriptionContent = {
   companyId: 1,
